@@ -7,6 +7,17 @@ permalink: /about/index.html
 eleventyNavigation:
   key: About
   order: 1
+youtube video:
+  url: https://youtu.be/M9nlZjqJSbE
+  id: M9nlZjqJSbE
+  mediaType: video
+  imageURL: https://img.youtube.com/vi/M9nlZjqJSbE/maxresdefault.jpg
+  embedURL: //youtube.com/embed/M9nlZjqJSbE
+  title: Brood
+  description: Hoe kneed ik deeg
+  publishedAt: 2009-03-10T20:15:58Z
+  tags:
+    - brood
 ---
 #### Why Create This?
 
