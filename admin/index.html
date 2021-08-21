@@ -11,5 +11,10 @@
     <!-- Include Netlify Identity for authentication -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script type="module" src="/admin/preview-templates/index.js"></script>
+    <script src="https://unpkg.com/netlify-cms-widget-youtube@^0.3.0"></script>
+
+    <script>
+      CMS.registerWidget('youtube', youtubeControl, youtubePreview)
+    </script>
   </body>
 </html>
