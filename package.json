@@ -1,6 +1,6 @@
 {
-  "name": "fernfolio-11ty-template",
-  "version": "1.0.0",
+  "name": "marryovertoom.info",
+  "version": "0.0.1",
   "description": "The super simple portfolio template built with Eleventy and Netlify CMS",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
@@ -8,18 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tylerMRoderick/fernfolio-11ty-template"
+    "url": "https://github.com/leijenaarj/marry-overtoom-portfolio"
   },
   "author": {
-    "name": "Tyler M. Roderick",
-    "email": "troderick@protonmail.com",
-    "url": "https://www.tylerroderick.com/"
+    "name": "Jorgen Leijenaar",
+    "email": "git@rapidite.be",
+    "url": "https://rapidite.be/"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tylerMRoderick/fernfolio-11ty-template/issues"
-  },
-  "homepage": "https://github.com/tylerMRoderick/fernfolio-11ty-template",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "luxon": "^1.25.0",
