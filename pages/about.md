@@ -26,7 +26,7 @@ youtube:
   description: ""
   mediaType: video
 ---
-{% youtube "TqQUUAmYZR4", "16/9" %}
+{% youtube "TqQUUAmYZR4", "4/3" %}
 
 #### Why Create This?
 
