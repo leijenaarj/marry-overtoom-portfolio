@@ -8,16 +8,23 @@ eleventyNavigation:
   key: About
   order: 1
 youtube:
-  url: https://youtu.be/M9nlZjqJSbE
-  id: M9nlZjqJSbE
+  url: " https://youtu.be/TqQUUAmYZR4 "
+  id: TqQUUAmYZR4
   mediaType: video
-  imageURL: https://img.youtube.com/vi/M9nlZjqJSbE/maxresdefault.jpg
-  embedURL: //youtube.com/embed/M9nlZjqJSbE
-  title: Brood
-  description: Hoe kneed ik deeg
-  publishedAt: 2009-03-10T20:15:58Z
+  imageURL: https://img.youtube.com/vi/TqQUUAmYZR4/maxresdefault.jpg
+  embedURL: //youtube.com/embed/TqQUUAmYZR4
+  title: Lang leve Dennenoord!
+  description: ""
+  publishedAt: 2012-06-27T17:57:42Z
   tags:
-    - brood
+    - Dennenoord
+    - RIP
+    - Wolfheze
+    - Thuis
+    - Home
+    - Fantastisch
+    - 12 jaar
+    - wonen
 ---
 #### Why Create This?
 
