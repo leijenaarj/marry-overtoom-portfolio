@@ -13,7 +13,6 @@ const Page = createClass({
         <h2>${entry.getIn(["data", "subtitle"], null)}</h2>
 
         ${this.props.widgetFor("body")}
-        ${this.props.widgetFor("youtube")}
       </main>
     `;
   }
