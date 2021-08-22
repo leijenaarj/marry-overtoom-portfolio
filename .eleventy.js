@@ -6,7 +6,7 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function(eleventyConfig) {
 
-  eleventyConfig.addLiquidShortcode("youtube", (youtubeId, aspectRatio) => {
+  eleventyConfig.addNunjucksShortcode("youtube", (youtubeId, aspectRatio) => {
     return `<div class="aspect-ratio" style="--aspect-ratio: ${aspectRatio}"><iframe class="youtube-player video video--youtube" src="https://www.youtube.com/embed/${youtubeId}/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>`;
   });
 

@@ -24,7 +24,7 @@
           {name: 'aspect_ratio', label: 'Aspect ratio', widget: 'select', multiple: false, options: [ "16/9", "4/3", "1/1" ], default: "16/9"}
         ],
         // Pattern to identify a block as being an instance of this component
-        pattern: /^{% youtube \"(\S+)\", \"(\S+)\" %}$/,
+        pattern: /^{% youtube %}$/,
         // Function to extract data elements from the regexp match
         fromBlock: function(match) {
           return {
