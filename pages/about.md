@@ -8,14 +8,11 @@ eleventyNavigation:
   key: About
   order: 1
 youtube:
+  publishedAt: 2012-06-27T17:57:42.000Z
   url: " https://youtu.be/TqQUUAmYZR4 "
-  id: TqQUUAmYZR4
-  mediaType: video
   imageURL: https://img.youtube.com/vi/TqQUUAmYZR4/maxresdefault.jpg
   embedURL: //youtube.com/embed/TqQUUAmYZR4
   title: Lang leve Dennenoord!
-  description: ""
-  publishedAt: 2012-06-27T17:57:42Z
   tags:
     - Dennenoord
     - RIP
@@ -25,6 +22,9 @@ youtube:
     - Fantastisch
     - 12 jaar
     - wonen
+  id: TqQUUAmYZR4
+  description: ""
+  mediaType: video
 ---
 #### Why Create This?
 
@@ -33,6 +33,8 @@ I wanted to develop a portfolio that was simple, fast, accessible, and can be mo
 First, I needed a static site generator. This led me to [Eleventy](https://www.11ty.dev/). This project is great because it is is simple, powerful, written in javascript, and framework free.
 
 Next, I wanted auto deployments and a git-powered CMS. [Netlify](https://www.netlify.com/) and their suite of tools seemed perfect.
+
+{% youtube "TqQUUAmYZR4 ", "16/9" %}
 
 I found a few good starter projects using these technologies, but was overall unhappy with the current options. That led me to develop Fernfolio. The goal was not to create a technical masterpiece, but to create a beautiful portfolio with minimal overhead/complexity. Something that just works.
 
