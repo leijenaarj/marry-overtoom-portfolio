@@ -7,7 +7,7 @@ permalink: /about/index.html
 eleventyNavigation:
   key: About
   order: 1
----
+
 #### Why Create This?
 
 {% youtube "TqQUUAmYZR4", "4/3" %}
