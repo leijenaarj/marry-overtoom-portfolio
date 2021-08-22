@@ -26,6 +26,8 @@ youtube:
   description: ""
   mediaType: video
 ---
+{% youtube "TqQUUAmYZR4", "16/9" %}
+
 #### Why Create This?
 
 I wanted to develop a portfolio that was simple, fast, accessible, and can be modified without opening up a code editor.
@@ -33,8 +35,6 @@ I wanted to develop a portfolio that was simple, fast, accessible, and can be mo
 First, I needed a static site generator. This led me to [Eleventy](https://www.11ty.dev/). This project is great because it is is simple, powerful, written in javascript, and framework free.
 
 Next, I wanted auto deployments and a git-powered CMS. [Netlify](https://www.netlify.com/) and their suite of tools seemed perfect.
-
-{% youtube "TqQUUAmYZR4 ", "16/9" %}
 
 I found a few good starter projects using these technologies, but was overall unhappy with the current options. That led me to develop Fernfolio. The goal was not to create a technical masterpiece, but to create a beautiful portfolio with minimal overhead/complexity. Something that just works.
 
