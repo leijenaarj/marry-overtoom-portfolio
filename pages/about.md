@@ -7,7 +7,7 @@ permalink: /about/index.html
 eleventyNavigation:
   key: About
   order: 1
-youtube video:
+youtube:
   url: https://youtu.be/M9nlZjqJSbE
   id: M9nlZjqJSbE
   mediaType: video
