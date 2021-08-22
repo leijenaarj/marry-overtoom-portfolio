@@ -41,7 +41,7 @@ collections:
         fields:
           - { label: "Key", name: "key", widget: "string" }
           - { label: "Order", name: "order", widget: "number", default: 0 }
-      - { label: "Body", name: "body", widget: "markdown", editor_components: ["image"], required: false }
+      - { label: "Body", name: "body", widget: "markdown", editor_components: ["image", "youtube"], required: false }
 
   # The home page
   - name: "home"
