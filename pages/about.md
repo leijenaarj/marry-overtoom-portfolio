@@ -7,10 +7,8 @@ permalink: /about/index.html
 eleventyNavigation:
   key: About
   order: 1
-
+---
 #### Why Create This?
-
-{% youtube "TqQUUAmYZR4", "4/3" %}
 
 I wanted to develop a portfolio that was simple, fast, accessible, and can be modified without opening up a code editor.
 
